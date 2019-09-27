@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.tecdiary.com	TRUE	/	FALSE	1999999999	__cfduid	d1542564ecc7cb0ba9de11c2dd5dfe74e1562151001
+spos.tecdiary.com	TRUE	/	FALSE	1999999999	spos_session	4jba1i7mmiuermdaabktho1648uuppmp
+spos.tecdiary.com	TRUE	/	FALSE	1999999999	spos_spos_cookie	216b70e4f6bf4a1b62103ef847ddae91
+

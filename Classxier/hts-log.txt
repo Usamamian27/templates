@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 19 Nov 2018 17:01:18 at http://preview.uideck.com/items/classixer-1.1/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://preview.uideck.com/items/classixer-1.1/ -O1 "D:\MERN Stack\MERN\Templates\Job" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:04:20	Error: 	"Not Found" (404) at link preview.uideck.com/items/classixer-1.1/assets/css/grabbing.png (from preview.uideck.com/items/classixer-1.1/assets/css/owl.carousel.css)
+17:04:24	Error: 	"Not Found" (404) at link preview.uideck.com/items/classixer-1.1/dashboard-payments.html (from preview.uideck.com/items/classixer-1.1/post-ads.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 10 seconds : 129 links scanned, 126 files written (5878440 bytes overall) [4501887 bytes received at 23694 bytes/sec], 1951393 bytes transferred using HTTP compression in 67 files, ratio 26%, 7.5 requests per connection
+(2 errors, 0 warnings, 0 messages)

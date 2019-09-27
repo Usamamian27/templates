@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+	<!--Slider Files-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!--Font Files-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+	<!--Custom Stylesheet-->
+	<link rel="stylesheet" href="../css/chart.css" type="text/css">
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+
+	<title>Online Portal</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="dashboard performance">
+			<header class="dashboard-header">
+				<nav class="navbar navbar-dark bg-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+						aria-expanded="false" aria-label="Toggle navigation" id="custom-hide">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!--
+					<div class="dash-icon-before">
+						<ul>
+							<li><a href=""><i class="fas fa-video"></i></a></li>
+							<li><a href=""><i class="fas fa-envelope"></i></a></li>
+							<li><a href=""><i class="fas fa-chart-bar"></i></a></li>
+							<li><a href=""><i class="fas fa-question-circle"></i></a></li>
+						</ul>
+					</div>
+-->
+				</nav>
+				<ul class="collapse" id="navbarToggleExternalContent">
+					<a class="navbar-brand blue" style="margin-left:40px;" href="dashboard.html"><img
+							src="../imgs/Logo1.png" alt="Brand"></a>
+
+					<li><a href="course.html"><i class="fas fa-video"></i>Courses</a></li>
+					<li><a href="communication.html"><i class="fas fa-envelope"></i>Communication</a></li>
+					<li><a href="performance.html"><i class="fas fa-chart-bar"></i>Performance</a></li>
+					<li><a href="#"><i class="fas fa-question-circle"></i>Resources</a></li>
+					<li><a href="../index.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+				</ul>
+			</header>
+			<!--Header Ends Here-->
+			<div class="courses-section">
+				<div class="col-md-12 col-lg-12">
+					<div class="setting">
+						<div class="setting-img">
+							<a href="profile.html"><img src="../imgs/s3.jpg" alt="Img"></a>
+						</div>
+						<h5>Teacher<i class="far fa-bell"></i></h5>
+					</div>
+				</div>
+				<div class="container">
+					<div class="perform-content">
+						<h3>Overview</h3>
+						<p>Get top insights about your performance</p>
+						<div class="chart">
+							<canvas id="c"></canvas>
+							<div class="label">text</div>
+						</div>
+						<a href="#" class="btn-become bg-blue">Revenue Report</a>
+					</div>
+					<!--Front Page of Dashboard-->
+				</div>
+			</div>
+			<!--Middle Section Ends Here-->
+			<footer class="footer dashboard-footer">
+				<div class="container">
+					<div class="col-md-12 col-lg-12">
+						<div class="row">
+							<div class="col-md-2 col-lg-2 col-sm-12">
+								<div class="footer-logo-img">
+									<img src="../imgs/logo1.png" alt="Brand">
+								</div>
+							</div>
+							<div class="col-md-8 col-lg-8 col-sm-12 center">
+								<div class="footer-content">
+									<ul>
+										<li>© Logo 2019</li>
+										<li><a href="#">Jobs</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">Term of Use</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2 col-lg-2 col-sm-12">
+								<div class="footer-content social-icon">
+									<ul>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer><!-- Footer Ends Here -->
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+	</script>
+	<script>
+		$("#custom-hide").click(function () {
+			$(".dash-icon-before").hide();
+		});
+	</script>
+	<script src="../js/performance-chart.js"></script>
+</body>
+
+</html>

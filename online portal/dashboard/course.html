@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+
+	<!--Slider Files-->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!--Font Files-->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+	<!--Custom Stylesheet-->
+	<link rel="stylesheet" href="../css/style.css" type="text/css">
+
+	<title>Online Portal</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="dashboard communication">
+			<header class="dashboard-header">
+				<nav class="navbar navbar-dark bg-dark">
+					<button class="navbar-toggler" type="button" data-toggle="collapse"
+						data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+						aria-expanded="false" aria-label="Toggle navigation" id="custom-hide">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<!--
+					<div class="dash-icon-before">
+						<ul>
+							<li><a href=""><i class="fas fa-video"></i></a></li>
+							<li><a href=""><i class="fas fa-envelope"></i></a></li>
+							<li><a href=""><i class="fas fa-chart-bar"></i></a></li>
+							<li><a href=""><i class="fas fa-question-circle"></i></a></li>
+						</ul>
+					</div>
+-->
+				</nav>
+				<ul class="collapse" id="navbarToggleExternalContent">
+					<a class="navbar-brand blue" style="margin-left:40px;" href="dashboard.html"><img
+							src="../imgs/Logo1.png" alt="Brand"></a>
+
+					<li><a href="course.html"><i class="fas fa-video"></i>Courses</a></li>
+					<li><a href="communication.html"><i class="fas fa-envelope"></i>Communication</a></li>
+					<li><a href="performance.html"><i class="fas fa-chart-bar"></i>Performance</a></li>
+					<li><a href="#"><i class="fas fa-question-circle"></i>Resources</a></li>
+					<li><a href="../index.html"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+				</ul>
+			</header>
+			<!--Header Ends Here-->
+			<div class="courses-section">
+				<div class="col-md-12 col-lg-12">
+					<div class="setting">
+						<div class="setting-img">
+							<a href="profile.html"><img src="../imgs/s3.jpg" alt="Img"></a>
+						</div>
+						<h5>Teacher<i class="far fa-bell"></i></h5>
+					</div>
+				</div>
+				<div class="container">
+					<div class="communicate-content">
+						<nav class="nav nav-pills nav-justified" id="nav-tab" role="tablist">
+							<a aria-controls="nav-home" aria-selected="true" class="nav-item nav-link active"
+								data-toggle="tab" href="#nav-home" id="nav-home-tab" role="tab">Courses</a>
+							<a aria-controls="nav-profile" aria-selected="false" class="nav-item nav-link"
+								data-toggle="tab" href="#nav-profile" id="nav-profile-tab" role="tab">Assignment</a>
+							<a aria-controls="nav-contact" aria-selected="false" class="nav-item nav-link"
+								data-toggle="tab" href="#nav-contact" id="nav-contact-tab" role="tab">Announcement</a>
+						</nav>
+						<div class="tab-content" id="nav-tabContent">
+							<div aria-labelledby="nav-home-tab" class="tab-pane fade show active" id="nav-home"
+								role="tabpanel">
+								<!-- <div class="messages">Courses</div> -->
+								<br><br>
+								<form>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="inputEmail4">Cource Title</label> <input class="form-control"
+												placeholder="Cource Title" type="text">
+										</div>
+										<div class="form-group col-md-6">
+											<label for="inputPassword4">Cource Catagory</label> <input
+												class="form-control" placeholder="Cource Catagory" type="text">
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="inputEmail4">Cource Credit Hours</label> <input
+												class="form-control" placeholder="Cource Credit Hours" type="text">
+										</div>
+										<div class="form-group col-md-6">
+											<label for="inputPassword4">No. of Tutorials</label> <input
+												class="form-control" placeholder="No. of Tutorials" type="text">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="inputAddress">Cource Discription</label>
+										<textarea rows="10" placeholder="Cource Discription" class="form-control"
+											id="inputAddress"></textarea>
+										</textarea>
+
+										<div class="button-left">
+											<button class="btn started bg-blue btn-signin" type="submit">Add
+												Video/File</button>
+										</div>
+									</div>
+
+
+									<div class="button-center center">
+										<button class="btn started bg-blue btn-signin" type="submit">Submit</button>
+									</div>
+								</form>
+							</div>
+							<div aria-labelledby="nav-profile-tab" class="tab-pane fade" id="nav-profile"
+								role="tabpanel">
+								<!-- <div class="messages">Assignment</div> -->
+
+								<br><br>
+								<form>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="inputEmail4">Assignment Title</label> <input
+												class="form-control" placeholder="Assignment Title" type="text">
+										</div>
+										<div class="form-group col-md-6">
+											<label for="inputPassword4">Assignment Catagory</label> <input
+												class="form-control" placeholder="Assignment Catagory" type="text">
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="inputEmail4">Assignment Marks</label> <input
+												class="form-control" placeholder="Assignment Marks" type="text">
+										</div>
+										<div class="form-group col-md-6">
+											<label for="inputPassword4">Due Date</label> <input class="form-control"
+												placeholder="Due Date" type="text">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="inputAddress">Assignment Discription</label>
+										<textarea rows="10" placeholder="Assignment Discription" class="form-control"
+											id="inputAddress"></textarea>
+										</textarea>
+
+										<div class="button-left">
+											<button class="btn started bg-blue btn-signin" type="submit">Add
+												File</button>
+										</div>
+									</div>
+
+
+									<div class="button-center center">
+										<button class="btn started bg-blue btn-signin" type="submit">Submit</button>
+									</div>
+								</form>
+							</div>
+							<div aria-labelledby="nav-contact-tab" class="tab-pane fade" id="nav-contact"
+								role="tabpanel">
+								<!-- <div class="messages">Announcement</div> -->
+								<br><br>
+								<form>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="inputEmail4">Announcement Title</label> <input
+												class="form-control" placeholder="Announcement Title" type="text">
+										</div>
+										<div class="form-group col-md-6">
+											<label for="inputPassword4">Announcement Catagory</label> <input
+												class="form-control" placeholder="Announcement Catagory" type="text">
+										</div>
+									</div>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<label for="inputEmail4">Announcement Marks</label> <input
+												class="form-control" placeholder="Announcement Marks" type="text">
+										</div>
+										<div class="form-group col-md-6">
+											<label for="inputPassword4">Due Date</label> <input class="form-control"
+												placeholder="Due Date" type="text">
+										</div>
+									</div>
+									<div class="form-group">
+										<label for="inputAddress">Announcement Discription</label>
+										<textarea rows="10" placeholder="Announcement Discription" class="form-control"
+											id="inputAddress"></textarea>
+										</textarea>
+
+										<div class="button-left">
+											<button class="btn started bg-blue btn-signin" type="submit">Add
+												File</button>
+										</div>
+									</div>
+
+
+									<div class="button-center center">
+										<button class="btn started bg-blue btn-signin" type="submit">Submit</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<!--Front Page of Dashboard-->
+				</div>
+			</div>
+			<!--Middle Section Ends Here-->
+			<footer class="footer dashboard-footer">
+				<div class="container">
+					<div class="col-md-12 col-lg-12">
+						<div class="row">
+							<div class="col-md-2 col-lg-2 col-sm-12">
+								<div class="footer-logo-img">
+									<img src="../imgs/logo1.png" alt="Brand">
+								</div>
+							</div>
+							<div class="col-md-8 col-lg-8 col-sm-12 center">
+								<div class="footer-content">
+									<ul>
+										<li>© Logo 2019</li>
+										<li><a href="#">Jobs</a></li>
+										<li><a href="#">Privacy Policy</a></li>
+										<li><a href="#">Term of Use</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-2 col-lg-2 col-sm-12">
+								<div class="footer-content social-icon">
+									<ul>
+										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+										<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer><!-- Footer Ends Here -->
+		</div>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+	</script>
+	<script>
+		$("#custom-hide").click(function () {
+			$(".dash-icon-before").hide();
+		});
+	</script>
+</body>
+
+</html>

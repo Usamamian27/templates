@@ -1,0 +1,1184 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+p, h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+.center{
+	text-align: center;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.capitalize{
+	text-transform: capitalize;
+}
+.clear-fix{
+	clear: both;
+}
+.blue{
+	color: #02B2E4;
+}
+.bg-blue{
+	background-color: #02B2E4;
+}
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/*++++++++++++++++++++Header Styling++++++++++++++++++*/
+.header{
+    border-bottom: 1px solid #fff;
+	transition: 0.5s;
+}
+.header-navbar nav {
+    background: transparent !important;
+}
+.header:hover {
+    background: #fff !important;
+	transition: 0.5s;
+}
+.custom-search{
+	width: 40%;
+}
+.navbar-brand img {
+    width: 100px;
+    height: 50px;
+}
+.navbar-nav .active a {
+    color: #02B2E4 !important;
+}
+.navbar-nav li a {
+    padding: 10px 20px !important;
+    font-weight: 700;
+	color: #000 !important;
+	transition: 0.5s;
+}
+.navbar-nav li a:hover {
+	color: #02B2E4 !important;
+}
+.search {
+    width: 260px;
+    position: relative;
+    top: 4px;
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.search input {
+    padding: 6px 15px;
+    border: 1px solid #ccc;
+    border-right: unset;
+    border-radius: 40px 0px 0px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 150px;
+}
+.search input:focus, .search-btn:focus {
+	outline: unset;
+}
+.search input[type=text]:focus {
+  width: 80%;
+}
+.search-btn {
+    border: 1px solid #02B2E4;
+    background: #02B2E4;
+    padding: 0px 15px 0 13px;
+    border-radius: 0 40px 40px 0;
+    color: #fff;
+	transition: 0.5s;
+}
+.search-btn:hover {
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #000;
+}
+/*++++++++++++Header Explore Hover+++++++++++++++*/
+.explore-hover {
+    padding: 50px 0;
+}
+.bg-data-science, .bg-data-business{
+	background-image: url(../imgs/data_science.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+}
+.anchor-header-hover{
+	text-decoration: none;
+	color: #fff;
+	font-size: 22px;
+    font-weight: 700;
+}
+.anchor-header-hover:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.hover-science {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+	transition: 0.5s;
+}
+.hover-science:hover {
+	background: #0000007a;
+	transition: 0.5s;
+}
+.bg-business{
+	background-image: url(../imgs/business.jpg);
+	height: 185px;
+}
+.bg-personal{
+	background-image: url(../imgs/personal_development.jpg);
+}
+.bg-computer{
+	background-image: url(../imgs/computer_science.jpg);
+}
+.bg-information{
+	background-image: url(../imgs/information_technology.jpg);
+}
+.bg-language{
+	background-image: url(../imgs/language_learning.jpg);
+}
+.bg-math{
+	background-image: url(../imgs/math_and_logic.jpg);
+}
+.bg-physical{
+	background-image: url(../imgs/physical_science_and_engineering.jpg);
+}
+.bg-health{
+	background-image: url(../imgs/health.jpg);
+}
+.bg-social{
+	background-image: url(../imgs/social_sciences.jpg);
+}
+.bg-art{
+	background-image: url(../imgs/arts_and_humanities.jpg);
+}
+.explore-header-marg-bottom{
+	margin-bottom: 30px;
+}
+.explore-section {
+	cursor: pointer;
+}
+/*++++++++++++Banner Styling+++++++++++++++++++++*/
+.banner{
+	background-image: url(../imgs/dummy.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	background-attachment: fixed;
+}
+.banner-text {
+    padding-top: 20%;
+}
+.banner-text h1 {
+    color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+	font-family: 'Pacifico', cursive;
+    margin: 20px 0;
+}
+.banner-text p{
+    color: #fff;
+    margin-bottom: 10px;
+}
+.started {
+    border: 2px solid #02B2E4;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin-top: 15px;
+    color: #fff;
+	transition: 0.5s;
+	font-weight: 700;
+}
+.started:hover, .skill-btn {
+    border-color: #fff;
+    background-color: transparent;
+}
+/*+++++++++ Discover Programs +++++++++*/
+.discover {
+    padding: 50px 0px 70px 0px;
+}
+.disc-content h3 {
+    margin: 20px 0;
+    font-weight: 600;
+}
+.disc-box a {
+    text-decoration: none;
+    color: #000;
+}
+.disc-box {
+    width: 100%;
+    height: 170px;
+    border-top: 15px solid #02b2e4;
+    border-radius: 15px;
+    padding-top: 40px;
+    box-shadow: 1px 1px 15px 5px #ccc;
+    margin: 15px 0;
+	transition: 0.5s;
+}
+.disc-box:hover {
+    box-shadow: 1px 1px 5px 3px #ccc;
+}
+.disc-box a p {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 8px;
+}
+/*+++++++++++++++++++++++++determine Styling+++++++++++++++++*/
+.determine{
+	background-image: url(../imgs/2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-attachment: fixed;
+	padding: 50px 0;
+}
+.determine-bar {
+    border-bottom: 5px solid #02b2e4;
+    padding: 0 40px;
+}
+.skill-btn{
+	margin-left: 10px;
+}
+.skill-btn:hover{
+	background: #02b2e4;
+	border-color: #02b2e4;
+}
+.determine-text h3, .new-nano h3{
+	font-size: 42px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+/*++++++++++++achievement Styling++++++++++*/
+.achievement {
+    background: #fff;
+    height: 250px;
+}
+.achieve-img img {
+	width: 100%;
+    height: 250px;
+}
+.achieve-text {
+    padding: 35px 0;
+}
+.achieve-text h5{
+    font-weight: 700;
+    color: #02b2e4;
+    margin: 10px 0;
+}
+.achieve-text p {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.achieve-text a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 800;
+}
+/*++++++++++++catagories Styling++++++++++*/
+.catagories {
+    padding: 50px 0;
+}
+.cat-tabs ul li a {
+    color: #02b2e4;
+}
+.slider-content{
+	margin-top: 30px;
+}
+.devlop-tab {
+    box-shadow: 0 0 20px 0px #ccc;
+	transition: 0.5s;
+}
+.devlop-tab:hover {
+    box-shadow: 0 0 5px 0px #ccc;
+	transition: 0.5s;
+}
+.devlop-text {
+    text-align: center;
+    padding: 0 0 20px 0;
+    margin-bottom: 10px;
+}
+.devlop-text h3 {
+    padding: 15px 0;
+}
+.devlop-text p {
+	margin-bottom: 15px;
+}
+.devlop-text button:hover {
+	border-color: #02B2E4;
+	color: #02B2E4;
+}
+/*++++++++++++Nano Degree Styling++++++++++*/
+.degree{
+	background-image: url(../imgs/1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 550px;
+	background-attachment: fixed;
+	padding: 40px 0;
+}
+.new-nano h3{
+	margin-top: 20px;
+}
+.card-img {
+    color: #fff;
+}
+.card-img img {
+    height: 300px;
+    border-radius: 15px;
+}
+.bg-light-blue {
+    position: absolute;
+    top: 0;
+    border-radius: 15px;
+    background-color: #000c;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+}
+.bg-light-blue label {
+    background: #fff;
+    color: #02b2e4;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 8px;
+	margin-left: 5px;
+}
+.bg-light-blue h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 7px 0;
+	transition: 0.5s;
+}
+.card-detail {
+    display: none;
+	transition: 0.5s !important;
+}
+.card-bottom {
+    margin-top: 120px; /*hover 40px*/
+}
+.card-bottom p span {
+    color: #ccc;
+    font-size: 12px;
+    position: relative;
+    top: 3px;
+    left: 2px;
+}
+.learn-card{
+	text-decoration: none !important;
+	font-size: 14px;
+	color: #fff;
+	float: right;
+	position: relative;
+    top: -25px;
+    font-weight: 700;
+	display: none;
+	transition: 0.5s;
+}
+.learn-card:hover{
+	color: #fff;
+}
+.bg-light-blue:hover {
+	background: #02b2e47d;
+	transition: 0.5s;
+}
+.bg-light-blue:hover .card-detail{
+	display: block;
+	transition: 0.5s;
+}
+.bg-light-blue:hover .card-bottom {
+    margin-top: 40px; /*hover 40px*/
+	transition: 0.5s;
+}
+.bg-light-blue:hover .learn-card{
+	display: block;
+	transition: 0.5s;
+}
+/*++++++++++++++Footer Styling+++++++++*/
+.footer {
+    padding: 25px 0;
+	background: #000;
+}
+.footer-content ul li {
+    list-style-type: none;
+    margin: 10px 20px;
+	display: inline-block;
+	color: #fff;
+}
+.footer-content ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	transition: 0.5s;
+}
+.footer-content ul li a:hover {
+	color: #02B2E4;
+	transition: 0.5s;
+}
+.footer-logo-img img {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+}
+.social-icon ul li {
+	display: inline-block;
+	margin:0;
+}
+.social-icon ul li a {
+    padding: 5px 12px;
+    color: #ccc;
+    font-size: 25px;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++ Detail Page Styling +++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.detail-banner{
+	background-image: url(../imgs/a.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 700px;
+}
+.detail-banner-text {
+    padding-top: 50%;
+}
+.detail-banner-text h2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+.detail-banner-text p {
+	color: #000;
+	margin-top: 20px;
+}
+.date {
+    padding: 15px;
+}
+.detail-content {
+    background: #eeeeeeb0;
+    padding: 50px 0;
+}
+.learn-content h3 {
+    margin-bottom: 25px;
+}
+.det-mar{
+	margin-top: 25px;
+}
+.learn-content ul li {
+    margin: 15px 0;
+}
+.detail-btn:hover{
+	color: #000;
+	border-color: #000;
+}
+.course-img img {
+    width: 100%;
+}
+.custom-table tr th, .custom-table tr td{
+	padding: 20px 25px;
+}
+.course-details {
+    margin-top: -550px;
+    background: #fff;
+    box-shadow: 0px 0px 20px #5f5f5f;
+}
+.faculty{
+	background-image: url(../imgs/faculty.png);
+}
+.may-like{
+	padding: 50px 0;
+}
+.may-like h4 {
+	font-size: 22px;
+	margin-bottom: 30px;
+	font-weight: 700;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++ Grid Page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.grid-banner {
+    background-image: url(../imgs/social_sciences.jpg);
+    height: 500px;
+}
+.grid-banner-text {
+    padding-top: 15%;
+}
+.grid-banner-text h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 35px;
+    margin: 20px 0 5px 0;
+}
+.grid-banner-text h2 i {
+    font-size: 18px;
+}
+.grid-content {
+    padding: 70px 0;
+}
+.grid-special-detail h3 {
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.grid-courses-detail h3 {
+	margin: 30px 0;
+    font-weight: 700;
+}
+.grid-special-translate {
+    transform: skewY(-15deg);
+    position: relative;
+    top: -80px;
+	background-image: linear-gradient(-90deg, #02b2e4, #86d22f);
+}
+.special-grid-text {
+    padding: 0 0 35px 0;
+    color: #fff;
+    transform: skewY(15deg);
+    position: relative;
+    top: 80px;
+	background-image: linear-gradient(-90deg, #02b2e4, #86d22f);
+}
+.special-grid-btn{
+	border-color: #fff;
+}
+.special-grid-btn:hover{
+	background: #fff;
+	color: #02b2e4;
+}
+.devlop-text h3 {
+    margin: 0;
+}
+.grid-pagination ul {
+    width: 260px;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++ SignIn Page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.sign-background{
+	background-image: url(../imgs/signin.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	padding-top: 12%;
+}
+.signin-form {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    background: #ffffffc7;
+    padding: 35px 50px 50px 50px;
+}
+.logo-signin img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.signup-anchor {
+    float: right;
+}
+.btn-signin{
+	margin: 40px 0 20px 0;
+}
+.btn-signin:hover{
+	border-color: #02b2e4;
+	color: #02b2e4;
+}
+.signup-form{
+	width: 50%;
+}
+.signup-bg{
+	padding-top: 8%;
+}
+/*++++++++++++++Teacher Button+++++++++++++++*/
+.collapse ul li .b-teacher {
+    border-color: #02B2E4;
+    background-color: #02B2E4;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 5px 15px !important;
+    border: 2px solid #02B2E4;
+    position: relative;
+    top: 4px;
+}
+.collapse ul li .b-teacher:hover {
+    border: 2px solid #000;
+	color: #000 !important;
+	background: transparent;
+}
+.detail-btn-anchor {
+    color: #fff;
+    text-decoration: none !important;
+	padding: 8px 20px;
+}
+.detail-btn-anchor:hover {
+    color: #02B2E4;
+}
+.devlop-text button {
+    padding: 6px 0;
+}
+.grid-btn-anchor-hover:hover{
+	color: #fff;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++ Enroll now Page +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.enroll-now {
+    padding-top: 100px;
+}
+.video iframe {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+}
+.multiple-videos{
+    overflow-y: scroll;
+    width: 95%;
+    height: 500px;
+}
+.multiple-videos label {
+    font-weight: 700;
+    margin-right: 15px;
+    position: relative;
+    top: -5px;
+}
+/*+++++++++++++Scroll bar+++++++++*/
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+/*+++++++++++++Scroll bar+++++++++*/
+.teacher-courses-details h4, .trending-courses h4 {
+    font-weight: 700;
+    margin: 20px 0;
+}
+.teach-img img {
+    width: 150px;
+    border-radius: 50%;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.teacher-picture h5, .teacher-picture h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.comment {
+    width: 100%;
+    margin-bottom: 10px;
+    border: unset;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+	transition: 0.5s;
+}
+.comment:focus {
+	outline: unset;
+    border-bottom: 2px solid #02b2e4;
+	transition: 0.5s;
+}
+.b-comment:hover{
+	color: #000;
+	border-color: #000;
+}
+.student-comment {
+    padding: 30px 0;
+}
+.enroll-trend-img img{
+	width: 100%;
+}
+.enroll-bottom-course {
+    margin-bottom: 30px;
+}
+/*===============================================   Instructor Page    ================================================*/
+.instructor-banner{
+	background-image: url(../imgs/interview.jpg);
+}
+.instructor-banner h2 {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+}
+.instructour-left{
+	margin-left: 15px;
+}
+.instructor-box {
+    font-size: 24px;
+    height: 230px;
+}
+
+.instructor-box a p{
+    font-size: 42px;
+}
+.help{
+	background-image: url(../imgs/discussion.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 550px;
+	background-attachment: fixed
+}
+.help-content {
+    color: #fff;
+    font-weight: 700;
+}
+.help-content h5 {
+	padding-top: 70px;
+	font-size: 32px;
+}
+.help-content p {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 90px;
+    font-size: 20px;
+}
+.become {
+    padding: 50px 0;
+	font-weight: 700;
+}
+.become-content h5 {
+	font-size: 32px;
+}
+.become-content p {
+	margin: 20px 0px 30px 0;
+}
+.btn-become{
+	text-decoration: none;
+    border: 2px solid #02B2E4;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin-top: 15px;
+    color: #fff;
+	transition: 0.5s;
+	font-weight: 700;
+}
+.btn-become:hover{
+	text-decoration: none;
+	border-color: #000;
+	background: transparent;
+    color: #000;
+	transition: 0.5s;
+}
+.text-blue{
+    color: #02B2E4 !important;
+}
+/*===============================================   Teacher Signup Details Page    ================================================*/
+.teach-detail-header ul {
+    margin: 0;
+}
+.teach-detail-header ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #868585;
+}
+.teach-detail-header ul li:nth-child(2) {
+    padding: 25px !important;
+}
+.teach-detail-header ul li:nth-child(3) {
+    float: right;
+    padding-top: 25px;
+}
+.teach-detail-header ul li a {
+    text-decoration: none;
+	padding: 25px;
+	border-right: 1px solid #ccc;
+}
+.exit {
+	border: unset !important;
+	color: #02b2e4;
+}
+.teach-detail-header ul li a img {
+    width: 100px;
+    height: 60px;
+}
+.progress {
+    height: 10px;
+}
+.progress-bar {
+    background-color: #02B2E4;
+}
+.teacher-detail-footer {
+    padding: 40px 0;
+    border: 1px solid #ccc;
+    text-align: right;
+}
+.selection-teacher h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 60px 0 30px 0;
+}
+.selection-teacher p {
+    margin-bottom: 30px;
+	width: 80%;
+}
+.selection-teacher form {
+    width: 80%;
+}
+.radio-select label {
+    margin: 0;
+	margin-left: 10px;
+}
+.radio-select {
+    padding: 15px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+/*===============================================   Dashboard Styling    ================================================*/
+.dashboard-header {
+    background-color: #343a40;
+    position: fixed;
+    height: 100vh;
+	z-index: 99999;
+}
+.dashboard-header ul {
+	margin: 0;
+}
+.dashboard-header ul li {
+	padding: 20px;
+	list-style-type: none;
+	transition: 0.5s;
+}
+.dashboard-header ul li:hover {
+    background-color: #02B2E4;
+	transition: 0.5s;
+}
+.dashboard-header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+.dashboard-header ul li a i {
+    font-size: 25px;
+    margin-right: 20px;
+    position: relative;
+    top: 3px;
+}
+.dash-icon-before {
+    position: absolute;
+    top: 56px;
+    left: 12px;
+}
+.dash-icon-before ul li {
+    padding-right: 0;
+}
+.setting {
+    text-align: right;
+    padding: 15px 0;
+}
+.setting-img img {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+}
+.setting h5 {
+    display: inline-block;
+    position: relative;
+    top: -45px;
+    right: 120px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.setting h5 i {
+	margin-left: 30px;
+}
+.courses-content-dash h2 {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.courses-content-dash a {
+	float: right;
+    margin-bottom: 50px;
+}
+.experience {
+    width: 100%;
+}
+.experience h3 {
+	margin-bottom: 30px;
+}
+.experience-box img {
+    width: 100%;
+}
+.experience-box a {
+	float: left;
+}
+.experience-box {
+    box-shadow: 1px 0px 20px 5px #ccc;
+	margin: 15px 0;
+	transition: 0.5s;
+}
+.experience-box:hover {
+    box-shadow: 1px 0px 5px 2px #ccc;
+	transition: 0.5s;
+}
+.experience-box h5 {
+    margin: 50px 0 10px 0;
+    font-weight: 700;
+}
+.experience-box p {
+	width: 90%;
+}
+.dashboard-footer {
+    background: #343a40;
+}
+/*+++++++++++++++++++Bootstrap Active Styling++++++++++++++++++++*/
+.nav-pills .nav-link.active {
+    color: #fff;
+    background-color: #02b2e4;
+}
+.nav a {
+	font-weight: 700;
+	color: #000;
+}
+/*+++++++++++++++++++++++++++=====================  DashBoard Coummunication Styling  =====================+++++++++++++++++++++++++++++++++++++*/
+.communicate-content {
+    margin-bottom: 50px;
+}
+.messages {
+    height: 100vh;
+    background-image: url(../imgs/message.png);
+    text-align: center;
+    font-size: 50px;
+    padding-top: 16%;
+}
+/*+++++++++++++++++++++++++++=====================  DashBoard Performance Styling  =====================+++++++++++++++++++++++++++++++++++++*/
+.perform-content {
+    height: 80vh;
+}
+.perform-content p {
+    color: #000;
+    font-size: 22px;
+    text-align: left;
+    margin: 40px 0 -30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===============================================   Media Queries    ================================================*/
+
+@media(max-width:1440px){	
+	.signin-form {
+		width: 36%;
+	}
+	.signup-form {
+    	width: 60%;
+	}
+}
+
+
+@media(max-width:1199px){
+	.navbar-nav li a {
+    	padding: 10px 15px !important;
+    }
+	.search {
+    	width: 240px;
+	}
+	.bg-light-blue:hover .card-bottom {
+    	margin-top: 20px;
+    }
+	.grid-special-translate::after {
+		top: 95px;
+		width: 280px;
+		overflow: hidden;
+	}
+	.signin-form {
+		width: 45%;
+	}
+	.signup-form {
+    	width: 75%;
+	}
+}
+
+
+@media(max-width:991px){
+	.search {
+    	width: 100%;
+		margin-bottom: 15px;
+	}
+	.explore-section {
+    	display: none;
+	}
+	.search input {
+		width: 50%;
+	}
+	.social-icon {
+    	text-align: center;
+	}
+	.sign-background {
+    	padding-top: 20%;
+	}
+	.signin-form {
+		width: 60%;
+	}
+	.signup-form {
+    	width: 90%;
+	}
+	.signup-bg{
+		padding-top: 12%;
+	}
+	.collapse ul li .b-teacher {
+    	margin-bottom: 15px;
+	}
+	.video iframe {
+    	height: 300px;
+	}
+	.multiple-videos {
+    	width: 100%;
+    	height: 300px;
+	}
+	.multiple-videos label {
+    	margin-right: 6px;
+    }
+	.teach-img img {
+    	width: 120px;
+    	height: 120px;
+    }
+}
+
+
+@media(max-width:767px){
+	.course-details {
+    	margin-top: 50px;
+    }
+	.sign-background {
+    	padding-top: 27%;
+	}
+	.signin-form {
+		width: 77%;
+	}
+	.signup-form {
+    	width: 90%;
+	}
+	.signup-bg{
+		padding: 30px 0;
+		height: 1110px;
+	}
+	.multiple-videos {
+		margin-top: 20px;
+	}
+	.multiple-videos label {
+		display: none;
+    }
+	.multiple-videos iframe {
+		width: 100%;
+		padding: 10px;
+		height: 250px;
+    }
+	.teacher-picture h5, .teacher-picture h6 {
+    	margin: 10px 0;
+	}
+	.help {
+    	height: 600px;
+    }
+}
+
+
+@media(max-width:575px){
+	.achievement {
+    	height: 520px;
+	}
+	.achieve-img {
+    	width: 100%;
+	}
+	.achieve-img img {
+    	height: 300px;
+	}
+	.determine {
+    	height: 750px;
+    }
+	.determine-text h3, .new-nano h3 {
+    	font-size: 35px;
+    }
+	.sign-background {
+    	padding-top: 35%;
+	}
+	.signin-form {
+		width: 100%;
+	}
+	.signup-anchor {
+    	float: unset;
+	}
+	.signup-bg{
+		padding: 30px 0;
+		height: 1110px;
+	}
+	.help-content p {
+    	font-size: 18px;
+	}
+
+}
+
+
+@media(max-width:425px){
+	.banner-text {
+    	padding-top: 30%;
+	}
+	.banner-text h1 {
+    	font-size: 35px;
+    }
+	.determine {
+    	height: 770px;
+    }
+	.new-nano h3 {
+    	font-size: 30px;
+	}
+	.bg-light-blue:hover .card-detail {
+    	font-size: 14px;
+	}
+	.custom-table tr th, .custom-table tr td {
+    	padding: 15px 10px;
+	}
+	.video iframe {
+    	height: 200px;
+	}
+	.multiple-videos iframe {
+		width: 100%;
+		padding: 10px;
+		height: 150px;
+    }
+	.help-content p {
+		width: 100%;
+	}
+}
